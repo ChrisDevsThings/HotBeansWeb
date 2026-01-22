@@ -19,16 +19,13 @@ body{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
 .nav-links a{color:inherit;text-decoration:none;padding:.25rem .5rem;border-radius:4px}
 .nav-links a:hover{background:var(--accent-2);color:#fff}
 .nav-toggle{display:none;background:none;border:0;cursor:pointer}
-.hamburger{display:inline-block;width:24px;height:2px;background:#222;position:relative}
-.hamburger::before,.hamburger::after{content:'';position:absolute;left:0;width:24px;height:2px;background:#222}
-.hamburger::before{top:-7px}
-.hamburger::after{top:7px}
 
 /* Hero */
-.hero{background:linear-gradient(180deg, rgba(107,63,46,0.9), rgba(106,63,46,0.6))}
+.hero{background:linear-gradient(180deg, rgba(107,63,46,0.9), rgba(106,63,46,0.6)), url('https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=') center/cover no-repeat;color:#fff;padding:4rem 0}
+.hero-content{padding:4rem 0;text-align:center}
 .hero h1{font-size:2.25rem;margin-bottom:.5rem}
 .lead{opacity:.95;margin-bottom:1rem}
-.btn{display:inline-block;background:var(--accent);color:#fff;padding:.6rem 4rem;border-radius:6px;text-decoration:none}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:.6rem 1rem;border-radius:6px;text-decoration:none}
 
 .section{padding:3rem 0;border-top:1px solid #f0ebe6}
 
@@ -48,4 +45,3 @@ body{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
 	.hero-content{padding:2rem 0}
 	.hero h1{font-size:1.5rem}
 }
-
